@@ -1,6 +1,7 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Raleway', sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -9,6 +10,28 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+.header-logo {
+        color: #4D5AE5;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+    }
+
+.logo-colored {
+    color: #2E2F42;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .header-menu-link {
@@ -24,23 +47,29 @@ ul {
     color: #404BBF; 
 }
 
-.contacts-link {
+.contacts-list-link {
     color: #434455;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-list-link:hover,
+.contacts-list-link:focus {
     color: #404BBF;
 }
 
-h1 {
+address {font-style: normal;}
+
+.hero-background {
+    background-color: #2e2f42;
+}
+
+.hero-title {
     color: #FFF;
-    background-color: #2E2F42;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -51,13 +80,42 @@ h1 {
 .button-service {
     font-family: inherit;
     cursor: pointer;
+    font-weight: 500;
     color: #FFFFFF;
-    border: 0;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
+}
+
+.button-service:hover,
+.button-service:focus {
+    background-color: #404BBF;
+}
+
+.features-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.features-list {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .section-team {
     background-color: #F4F4FD;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .team-name {
@@ -73,27 +131,53 @@ h1 {
     background-color: #FFF;
 }
 
-span {
-    color: #4D5AE5;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+.position {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+
+.portfolio-title {
+    color: #2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.portfolio-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-item-description {
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em; 
+    color: #434455;
+}
+
 
 .logo-title {
-    color: #F4F4FD;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-footer {
+.logo-colored-footer {
+    color: #f4f4fd;
+}
+
+.footer-descr {
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
